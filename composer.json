@@ -1,5 +1,5 @@
 {
-    "name": "qm/qm_logger",
+    "name": "qm/qm-logger",
     "version": "1.0.3",
     "description": "utility for logging inside a database",
     "type": "library",
