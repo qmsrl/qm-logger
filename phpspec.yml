@@ -1,0 +1,12 @@
+extensions:
+    PhpSpec\NyanFormattersExtension\Extension: ~
+
+formatter.name: nyan.dino
+
+suites:
+  suite:
+    namespace: QM\Logger
+    src_path: src
+    spec_path: ./
+    namespace: QM\Logger
+    psr4_prefix: QM\Logger

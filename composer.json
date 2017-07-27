@@ -1,0 +1,31 @@
+{
+    "name": "qm/qm_logger",
+    "version": "1.0.3",
+    "description": "utility for logging inside a database",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "QM\\Logger\\": "src/",
+            "": "spec/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "require": {
+        "equip/structure": "^1.1",
+        "lstrojny/functional-php": "^1.6",
+        "mongodb/mongodb": "^1.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.4",
+        "phpspec/nyan-formatters": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Federico Caprari",
+            "email": "korsmakolnikov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
